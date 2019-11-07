@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Sample Page | Subscribe</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Matt Bishop">
+  <meta name="description" content="subscription sample webpage">
+  <meta name="keywords" content="subscription, html, css, javascript, aria, accessibility, ada, section 508, wcag">
+  <link rel="stylesheet" type="text/css" href="subscribestyles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <img class="logo" src="logo.png" alt="Sprocket Design Logo">
+  </header>
+  <main>
+    <h1>Subscribe</h1>
+    <form action="" method="post">
+      <fieldset>
+        <label for="firstname">First Name: <span class="fa fa-asterisk"</span></label>
+        <input type="text" id="firstname" aria-required="true" pattern="[A-Za-z]+" name="firstname"><br>
+        <label for="lastname">Last Name: <span class="fa fa-asterisk"</span></label>
+        <input type="text" id="lastname" aria-required="true" pattern="[A-Za-z]+" name="lastname"><br>
+        <label for="email">Email Address: <span class="fa fa-asterisk"</span></label>
+        <input type="text" id="email" aria-required="true" name="email" 
+        aria-describedby="email-instructions">
+        <span id="email-instructions">(e.g. brucewayne@gmail.com)</span><br>
+        <input id="subscribebutton" type="submit" onclick="alert('Thank you for subscribing!')" value="Subscribe">
+        <input id="subscribebutton" type="submit" onclick="alert('There was an error, please try again.')" value="Subscribe">
+      </fieldset>
+    </form>
+  </main>
+  <footer>
+    <p id="footercontent">&copy; 2019 All Rights Reserved</p>
+  </footer>
+</body>
+</html>
