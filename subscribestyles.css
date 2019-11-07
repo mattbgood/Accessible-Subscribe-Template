@@ -1,0 +1,78 @@
+body {
+  background-color: #f9e5bc;
+}
+
+.logo {
+  text-align: left;
+  display: inline-block;
+  height: 165px;
+  width: 165px;
+}
+
+h1 {
+  color: #2f4f4f;
+  font-family: georgia;
+  font-size: 2em;
+  text-align: left;
+}
+
+label {
+  color: #000000;
+  font-family: georgia;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#subscribebutton {
+  background-color: #2f4f4f;
+  color: #ffffff;
+  font-family: georgia;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+a:link {
+  background-color: transparent;
+  font-family: georgia;
+  font-size: 1em;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+a:visited {
+  background-color: transparent;
+  font-family: georgia;
+  font-size: 1em;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+a:hover, 
+:focus {
+  background-color: transparent;
+  font-family: georgia;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:active {
+  background-color: transparent;
+  font-family: georgia;
+  font-size: 1em;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #000000;
+}
+
+#footercontent {
+  color: #ffffff;
+  font-family: georgia;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+}
